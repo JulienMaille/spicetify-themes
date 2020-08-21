@@ -1229,6 +1229,10 @@ button#player-button-repeat,
 
 /* Connect Device Popup */
 
+.ConnectDevicePicker__button--with-badge:after {
+    background-color: var(--modspotify_main_fg);
+}
+
 /* Cannot edit svg colors, hide it away */
 
 .ConnectPopup__devices-image {
@@ -1241,6 +1245,7 @@ button#player-button-repeat,
 }
 
 .button.button-blue {
+    background-color: var(--modspotify_main_fg);
     color: var(--modspotify_secondary_fg);
 }
 
